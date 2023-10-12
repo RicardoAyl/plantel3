@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
 
-  "homepage": "https://ricardoAyl.github.io/plantel/build",
+  "homepage": "https://ricardoayl.github.io/plantel/build",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
