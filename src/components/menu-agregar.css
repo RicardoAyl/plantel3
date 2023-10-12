@@ -1,0 +1,175 @@
+/*---------------------------------------------------------------*/
+/*----------------------CONTENEDOR DE TODO-----------------------*/
+/*------------------OCUPA EL 100% DEL VIEWPORT-------------------*/
+/*---------------------------------------------------------------*/
+
+.menu-agregar-contenedor{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    overflow: auto;
+}
+
+.mostrar{
+    display: flex;
+}
+
+/*---------------------------------------------------------------*/
+/*-----------------------------CABECERA--------------------------*/
+/*---------------------------------------------------------------*/
+.menu-agregar-contenedor-cabecera{
+    background-color: #126653;
+    width: 80%;
+    border-radius:10px 10px 0 0;
+    color: #D0D4D3;
+}
+
+/*---------------------------------------------------------------*/
+/*---------------------CONTENEDOR ITEMS--------------------------*/
+/*---------------------------------------------------------------*/
+.menu-agregar-contenedor-items{
+    width: 80%;
+    background-color: #D0D4D3;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+/*---------------------------------------------------------------*/
+/*---------------------CONTENEDOR BOTONES------------------------*/
+/*---------------------------------------------------------------*/
+.menu-agregar-contenedor-items-botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #126653;
+    width: 40%;
+    padding: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+
+    text-decoration: none;
+}
+
+.menu-agregar-contenedor-items-botones:active{
+    width: 45%;
+}
+
+
+
+/*.menu-agregar-contenedor-items-botones > img :hover {
+    width: 120%;
+
+}*/
+
+
+/*---------------------------------------------------------------*/
+/*--------------------------IMAGENES-----------------------------*/
+/*---------------------------------------------------------------*/
+.icon {
+width: 100%;
+    
+    
+}
+
+.regulador-botones{
+    
+    width: 300%;
+    
+    
+}
+/*---------------------------------------------------------------*/
+/*--------------------------TÍTULOS------------------------------*/
+/*---------------------------------------------------------------*/
+.menu-agregar-contenedor-items-botones > h5 {
+    color: #D0D4D3;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+
+/*---------------------------------------------------------------*/
+/*---------------------CONTENEDOR CANCELAR-----------------------*/
+/*---------------------------------------------------------------*/
+.menu-agregar-contenedor-cancelar{
+    background-color: #D0D4D3;
+    width: 80%;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+
+/*---------------------------------------------------------------*/
+/*------------------------BOTON CANCELAR-------------------------*/
+/*---------------------------------------------------------------*/
+.menu-agregar-contenedor-cancelar > button {
+    margin-top: 5%;
+    width: 80%;
+    min-height: 5vh;
+
+    font-weight: bold;
+    background-color: #126653;
+    border: 0;
+    border-radius: 40px;
+    margin-bottom: 5%;
+    color: #D0D4D3;
+    font-size: 150%;
+    
+}
+
+.menu-agregar-contenedor-cancelar > button:active{
+    width: 85%;
+    min-height: 7vh;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .boton-agregar-boton{
+        font-size: 300%;
+    }
+
+
+
+
+    /*---------------------------------------------------------------*/
+    /*----------------------CONTENEDOR DE TODO-----------------------*/
+    /*------------------OCUPA EL 100% DEL VIEWPORT-------------------*/
+    /*---------------------------------------------------------------*/
+
+    .menu-agregar-contenedor{
+        width: 360px;
+        height: 915px;
+        left: 40%;
+        /*position: fixed;
+        top: 0;
+        left: 0;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        overflow: auto;*/
+    }
+}
+
+
+
+/*   #D0D4D3
+    #126653     */

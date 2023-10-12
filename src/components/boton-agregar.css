@@ -1,0 +1,26 @@
+.boton-agregar-boton{
+    margin-top: 5%;
+    width: 80%;
+    min-height: 5vh;
+    font-weight: bold;
+    background-color: #126653;
+    border: 0;
+    border-radius: 40px;
+    margin-bottom: 5%;
+    color: #D0D4D3;
+    font-size: 200%;
+    
+}
+
+.boton-agregar-boton:active{
+    width: 85%;
+    min-height: 7vh;
+    margin-top: 1vh;
+
+}
+
+@media screen and (min-width: 768px) {
+    .boton-agregar-boton{
+        font-size: 300%;
+    }
+}

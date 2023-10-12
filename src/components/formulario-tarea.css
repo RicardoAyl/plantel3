@@ -1,0 +1,43 @@
+.formulario-tarea-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+
+}
+
+.formulario-tarea-formulario > label{
+    
+    text-align: left;
+    justify-content: left;
+    width: 80%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+   
+}
+
+.formulario-tarea-formulario > input{
+    min-height: 6vh;
+    width: 80%;
+    background-color: #D0D4D3;
+    border: 0;
+    border-radius: 10px;
+
+   
+
+}
+
+.formulario-tarea-formulario > button{
+    min-height: 6vh;
+    width: 80%;
+    font-weight: bold;
+    background-color: #126653;
+    border: 0;
+    border-radius: 40px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: #D0D4D3;
+    
+}

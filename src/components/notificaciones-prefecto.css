@@ -1,0 +1,98 @@
+.notificaciones-prefecto{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.notificaciones-prefecto-contenedor{
+    background-color: #126653;
+    width: 80%;
+    border-radius: 10px;
+}
+/*---------------------------------------------------------------*/
+/*----------------------DATOS ALUMNO-----------------------------*/
+/*---------------------------------------------------------------*/
+
+
+.notificaciones-prefecto-contenedor-dato-alumno{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+
+}
+
+.notificaciones-prefecto-contenedor-dato-alumno > span {
+    font-weight: bold;
+    color: #D0D4D3;
+    padding: 5%;
+    
+   
+
+
+}
+
+.notificaciones-prefecto-contenedor-dato-alumno > div{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: #D0D4D3;
+
+}
+
+
+
+/*---------------------------------------------------------------*/
+/*----------------------NOTIFICACIONES---------------------------*/
+/*---------------------------------------------------------------*/
+.notificaciones-prefecto-contenedor-notificaciones{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-items: center;
+    
+    
+
+    margin-bottom: 5%;
+}
+
+.notificaciones-prefecto-contenedor-notificaciones > img {
+    width: 40%;
+    padding: 25%;
+
+}
+
+hr{
+    width: 80%;
+    border-color: #D0D4D3;
+    
+}
+
+
+
+/*-------------------------------------------------------*/
+/*------------------PANTALLA ORDENADOR-------------------*/
+/*-------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+
+    .notificaciones-prefecto-contenedor-dato-alumno > span {
+        /*font-weight: bold;
+        color: #D0D4D3;
+        padding: 5%;*/
+        font-size: 300%;
+        
+    }
+
+    .notificaciones-prefecto-contenedor-dato-alumno > div{
+        /*display: flex;
+        justify-content: space-around;
+        font-weight: bold;
+        color: #D0D4D3;*/
+        font-size: 300%;
+    
+    }
+
+}

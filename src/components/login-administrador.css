@@ -1,0 +1,95 @@
+.login-administrador-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #126653;
+    width: 100%;
+    border-radius:  10px  10px 0 0;
+    min-height: 50vh;
+    
+}
+
+.login-administrador-formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.login-administrador-formulario > label{
+    
+    text-align: left;
+    justify-content: left;
+    width: 70%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 2%;
+   
+}
+
+.login-administrador-formulario > input{
+    min-height: 6vh;
+    width: 70%;
+    background-color: #D0D4D3;
+    border: 0;
+    border-radius: 5px;
+
+   
+
+}
+
+.login-administrador-formulario > button{
+    min-height: 6vh;
+    width: 70%;
+    font-weight: bold;
+    background-color: #04AB8B;
+    border: 0;
+    border-radius: 40px;
+    margin-bottom: 5%;
+    
+}
+
+.login-administrador-contenedor > button{
+    min-height: 6vh;
+    width: 70%;
+    font-weight: bold;
+    background-color: #04AB8B;
+    border: 0;
+    border-radius: 40px;
+    margin-bottom: 5%;
+    
+}
+
+.login-administrador-boton-separador{
+    margin-top: 17%;
+}
+
+
+/*---------------------------------------------------------------*/
+/*----------------------------MEDIA QERIES-----------------------*/
+/*---------------------------------------------------------------*/
+@media (min-width: 1025px) {
+
+    .elegir-usuario-contenedor-usuarios{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25%;
+    }
+}
+
+
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para tabletas */
+    .elegir-usuario-contenedor-usuarios{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25%;
+    }
+  }

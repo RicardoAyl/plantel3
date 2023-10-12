@@ -1,0 +1,72 @@
+.buscador-contenedor{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.buscador-contenedor-formulario{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+}
+
+/*-------------------------------------------------------*/
+/*----------------------INPUT----------------------------*/
+/*-------------------------------------------------------*/
+.buscador-contenedor-formulario > input{ 
+    display: flex;
+    width: 90%;
+    border: 0;
+    background-color: #D0D4D3;
+    border-radius: 50px 0 0 50px ;
+    font-size: 200%;
+    text-align: center;
+}
+
+/*-------------------------------------------------------*/
+/*----------------------BOTÓN----------------------------*/
+/*-------------------------------------------------------*/
+.buscador-contenedor-formulario > button{
+    background-color: #126653;
+    width: 10%;
+    border: 0;
+    border-radius: 0 50px 50px 0;
+   
+}
+
+/*-------------------------------------------------------*/
+/*----------------------IMAGEN---------------------------*/
+/*-------------------------------------------------------*/
+.buscador-contenedor-formulario > button > img {
+    width: 100%;
+    padding: 5%;
+}
+
+/*-------------------------------------------------------*/
+/*------------------PANTALLA ORDENADOR-------------------*/
+/*-------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+
+    /*-------------------------------------------------------*/
+    /*----------------------INPUT----------------------------*/
+    /*-------------------------------------------------------*/
+    .buscador-contenedor-formulario > input{ 
+        width: 90%;
+        border: 0;
+        background-color: #D0D4D3;
+        border-radius: 50px 0 0 50px ;
+        font-size: 300%;
+        text-align: center;
+    }
+
+
+    /*-------------------------------------------------------*/
+    /*----------------------IMAGEN---------------------------*/
+    /*-------------------------------------------------------*/
+    .buscador-contenedor-formulario > button > img {
+        width: 100%;
+        padding-right: 15%;
+    }
+    
+  }

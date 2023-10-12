@@ -1,0 +1,13 @@
+.presentacionP-contenedor{
+    background-color: white;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.presentacionP-logo {
+    width: 50%;
+}

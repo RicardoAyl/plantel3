@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/plantel/build/static/css/main.a817fbc3.css",
+    "main.js": "/plantel/build/static/js/main.38636f1a.js",
+    "static/js/787.97dadd01.chunk.js": "/plantel/build/static/js/787.97dadd01.chunk.js",
+    "static/media/logo-lobo.png": "/plantel/build/static/media/logo-lobo.1733586461bdc31d6cd3.png",
+    "index.html": "/plantel/build/index.html",
+    "main.a817fbc3.css.map": "/plantel/build/static/css/main.a817fbc3.css.map",
+    "main.38636f1a.js.map": "/plantel/build/static/js/main.38636f1a.js.map",
+    "787.97dadd01.chunk.js.map": "/plantel/build/static/js/787.97dadd01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a817fbc3.css",
+    "static/js/main.38636f1a.js"
+  ]
+}

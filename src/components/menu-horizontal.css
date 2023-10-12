@@ -1,0 +1,132 @@
+.menu-horizontal-contenedor.estaActivo{
+    display: flex;
+}
+
+.menu-horizontal-contenedor{
+    display: none;
+    flex-direction: column;
+    background-color: #126652;
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    border-right: 1px solid;
+    border-color: #D0D4D3;
+
+}
+
+a{
+    color: #D0D4D3;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+.menu-horizontal-contenedor-administrador{
+
+    background-color: #126652;
+
+}
+
+.menu-horizontal-contenedor-administrador > img{
+    width: 40%;
+    margin-top: 5%;
+}
+
+h3{
+    color: #D0D4D3;
+
+}
+
+h4{
+    color: #D0D4D3;
+}
+
+.menu-horizontal-separador{
+    width: 90%;
+}
+
+.menu-horizontal-cerrar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-horizontal-cerrar > h3{
+    margin-left: 5%;
+}
+
+.menu-horizontal-cerrar > img{
+    width: 13%;
+    height: 70%;
+    margin-right: 5%;
+    cursor: pointer;
+    
+   
+}
+
+.menu-horizontal-cerrar :active{
+    border: 1px solid;
+    border-color: #D0D4D3;
+}
+
+
+
+.menu-horizontal-contenedor-lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding-left: 0;
+    
+
+}
+
+.menu-horizontal-contenedor-lista > li{
+    display: grid;
+    grid-template-columns: 10% auto;
+    grid-template-rows: auto;
+    align-items: center;   
+    margin: 3%;
+    padding: 2%;
+    cursor: pointer;
+    
+
+}
+
+
+li:active{
+    border: 1px solid;
+    border-color: #D0D4D3;
+}
+
+
+.menu-horizontal-contenedor-lista > li > img{
+    width: 100%;
+        
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+   
+
+
+
+
+    /*---------------------------------------------------------------*/
+    /*----------------------CONTENEDOR DE TODO-----------------------*/
+    /*------------------OCUPA EL 100% DEL VIEWPORT-------------------*/
+    /*---------------------------------------------------------------*/
+
+    .menu-horizontal-contenedor{
+        width: 360px;
+        height: 915px;
+    }
+}

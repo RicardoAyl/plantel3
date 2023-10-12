@@ -1,0 +1,11 @@
+.alumno-contenedor{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+
+.alumno-contenedor > img {
+    width: 50%;
+}

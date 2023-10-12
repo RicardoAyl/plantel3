@@ -1,0 +1,30 @@
+.cabecera-contenedor{
+    background-color: #126652;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 10px 10px;
+
+}
+
+.cabecera-contenedor-img-menu{
+    width: 10%;
+    padding: 2%;
+}
+
+.cabecera-contenedor-img-menu:active{
+    border: 1px solid;
+    border-color: #D0D4D3;
+}
+
+
+.cabecera-contenedor-img-lobo{
+    width: 10%;
+    padding: 2%;
+
+}
+
+.cabecera-contenedor-img-lobo:active{
+    border: 1px solid;
+    border-color: #D0D4D3;
+}

@@ -1,0 +1,34 @@
+/*Clase principal para ocupar el todal del contenido*/
+.presentacion-contenedor{
+    background-color: #126653;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*Clase secundaria para ocupar 50% del contenido, la agregamos con reactjs*/
+.dos{
+    background-color: white;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.elegir{
+    background-color: #126653;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.presentacion-logo {
+    width: 50%;
+}
